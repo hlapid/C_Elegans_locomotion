@@ -1,0 +1,13 @@
+defaultActivation,0.0,activation value upon creation
+decayTime,0.2,"The ""pulse width"" - the time the neuron is up"
+EJSynDelay,1.0,Delay in the gap junction
+CHSynDelay,5.0,Delay in the chemical synapse
+NMJSynDelay,1.0,Delay in the neuromuscular junction
+EJCoeff,0.1,Electrical synapse strength
+CHCoeff,5.0,Chemical synapse strength
+NMJCoeff,1.0,neuromuscular synaptic strength
+simRuntime,2000.0,Simulation running time (duh)
+propCoeff,3.0,propagation distance delay time 
+LeakyCoeff,0.999,leaky factorization coefficient - leakage from cell body
+SignalAttenuation,0.999,chemical signal attentuation along propogation
+delta_t,0.001,simulation time step
