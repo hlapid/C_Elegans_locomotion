@@ -1,0 +1,101 @@
+I-Logix-RPY-Archive version 8.6.0 * 4012249
+
+- m_fileModifyTime = { IRPYRawContainer 
+	- size = 12;
+	- value = "DefaultComponent/DefaultConfig/Default/Default_pkgClass.java" 11.24.2015::15:30:22
+	"DefaultComponent/DefaultConfig/Default/EX_IN.java" 11.26.2015::18:11:41
+	"DefaultComponent/DefaultConfig/Default/EX_MN.java" 11.26.2015::17:29:56
+	"DefaultComponent/DefaultConfig/Default/EX_SN.java" 11.26.2015::17:32:14
+	"DefaultComponent/DefaultConfig/Default/Gen_BS.java" 4.19.2016::9:47:16
+	"DefaultComponent/DefaultConfig/Default/Gen_IN.java" 6.15.2016::16:0:3
+	"DefaultComponent/DefaultConfig/Default/Gen_MN.java" 6.15.2016::16:0:3
+	"DefaultComponent/DefaultConfig/Default/Gen_MUS.java" 6.15.2016::17:27:41
+	"DefaultComponent/DefaultConfig/Default/Gen_Neuron.java" 6.15.2016::16:0:3
+	"DefaultComponent/DefaultConfig/Default/Gen_SN.java" 6.15.2016::16:0:3
+	"DefaultComponent/DefaultConfig/Default/MUS.java" 6.1.2016::14:21:44
+	"DefaultComponent/DefaultConfig/Default/Manager.java" 6.15.2016::17:34:30
+	
+}
+- size = 9;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Gen_SN";
+	- _id = GUID 93cc1eaa-a49b-40a2-a450-d66c8aff5dcd;
+}
+- genTime = 6.15.2016::16:0:3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Gen_Neuron";
+	- _id = GUID 05335f33-371b-4bca-9a2d-8c4d4f0224e2;
+}
+- genTime = 6.15.2016::16:0:3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Gen_MN";
+	- _id = GUID de389e76-c5d3-41ba-9987-fc03547d0a17;
+}
+- genTime = 6.15.2016::16:0:3;
+- hElement = { IHandle 
+	- _m2Class = "ICodeGenConfigInfo";
+	- _filename = "DefaultComponent.cmp";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "DefaultComponent\\DefaultConfig";
+	- _id = GUID 39bf935a-5c27-4ea8-b180-ba4b266663c0;
+}
+- genTime = 6.15.2016::17:34:30;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Manager";
+	- _id = GUID 8ea5ddb9-7a45-47b3-a1ea-6f88be604479;
+}
+- genTime = 6.15.2016::17:34:30;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Gen_IN";
+	- _id = GUID deb55532-4eb2-47f5-a130-71486e68ba7f;
+}
+- genTime = 6.15.2016::16:0:3;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "MUS";
+	- _id = GUID f6fd80b3-e564-4879-be46-658dbfa82479;
+}
+- genTime = 6.15.2016::8:13:35;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = "Default.sbs";
+	- _subsystem = "Default";
+	- _class = "";
+	- _name = "Gen_MUS";
+	- _id = GUID 66e4ab70-0036-4f48-a7a3-0288d921babc;
+}
+- genTime = 6.15.2016::17:27:41;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = "Default.sbs";
+	- _subsystem = "";
+	- _class = "";
+	- _name = "Default";
+	- _id = GUID 23a4b28d-ce6f-4b87-9f41-e399dd327402;
+}
+- genTime = 12.14.2015::17:45:13;
+

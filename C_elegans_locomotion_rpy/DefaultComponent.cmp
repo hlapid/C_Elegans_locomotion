@@ -1,0 +1,168 @@
+I-Logix-RPY-Archive version 8.6.0 Java 4012249
+{ IComponent 
+	- _id = GUID 79463a73-ccb0-48b3-aca8-02dad7b255fb;
+	- _myState = 139264;
+	- _name = "DefaultComponent";
+	- m_buildType = Executable;
+	- m_libraries = "";
+	- m_additionalSources = "";
+	- m_standardHeaders = "";
+	- m_includePath = "";
+	- m_initializationCode = "";
+	- m_folder = { IFolder 
+		- _id = GUID d3bc2a71-c840-428a-867b-61c6c491e84a;
+		- _myState = 73728;
+		- _name = "Files";
+		- m_path = "";
+		- Elements = { IRPYRawContainer 
+			- size = 0;
+		}
+		- Files = { IRPYRawContainer 
+			- size = 0;
+		}
+	}
+	- m_configActive = { ICodeGenConfigInfoHandle 
+		- _m2Class = "ICodeGenConfigInfo";
+		- _id = GUID 39bf935a-5c27-4ea8-b180-ba4b266663c0;
+	}
+	- Configs = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ ICodeGenConfigInfo 
+			- _id = GUID 39bf935a-5c27-4ea8-b180-ba4b266663c0;
+			- _myState = 8192;
+			- _name = "DefaultConfig";
+			- HyperLinks = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IMHyperLink 
+					- _id = GUID 841b98f1-98e1-4586-9598-b2c98b74beb6;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Makefile";
+					- _linkType = "FREE";
+					- _linkTarget = "C:/Rational/Rhapsody/7.6.1/Discrete_Neurons/DefaultComponent/DefaultConfig/DefaultComponent.bat";
+					- isConfigurationFileHyperLink = 1;
+				}
+				{ IMHyperLink 
+					- _id = GUID c3cd2785-3444-40d0-999e-ae6db794de23;
+					- _dependsOn = { INObjectHandle 
+						- _m2Class = "";
+					}
+					- _linkDispName = "Edit Main File";
+					- _linkType = "FREE";
+					- _linkTarget = "C:/Rational/Rhapsody/7.6.1/Discrete_Neurons/DefaultComponent/DefaultConfig/MainDefaultComponent";
+					- isConfigurationFileHyperLink = 1;
+				}
+			}
+			- _scopeType = Explicit;
+			- _libraries = "";
+			- _additionalSources = "";
+			- _standardHeaders = "";
+			- _includePath = "";
+			- _targetMain = "";
+			- _instrumentation = None;
+			- _timeModel = RealTime;
+			- m_generateActors = 1;
+			- _statechartImplementation = Flat;
+			- _initializationCode = "";
+			- _checksList = 0 ;
+			- ScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- InitialInstances = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IClass";
+					- _filename = "Default.sbs";
+					- _subsystem = "Default";
+					- _class = "";
+					- _name = "Manager";
+					- _id = GUID 8ea5ddb9-7a45-47b3-a1ea-6f88be604479;
+				}
+			}
+			- _root = { IFolder 
+				- _id = GUID ebc1068f-a55c-4cda-8535-cefaa7330dfb;
+				- _myState = 8192;
+				- _name = "DefaultConfig";
+				- m_path = "";
+				- Elements = { IRPYRawContainer 
+					- size = 0;
+				}
+				- Files = { IRPYRawContainer 
+					- size = 0;
+				}
+			}
+			- weakCGTime = 12.23.2015::14:36:3;
+			- strongCGTime = 12.23.2015::14:36:3;
+			- AnimScopeElements = { IRPYRawContainer 
+				- size = 0;
+			}
+			- m_allInAnimScope = 1;
+			- m_generateUsecases = 0;
+		}
+	}
+	- HandlesInMe = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "Default.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "Default";
+			- _id = GUID 23a4b28d-ce6f-4b87-9f41-e399dd327402;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "java.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "java";
+			- _id = GUID c2f0b126-f661-440a-abf7-a2258ab025ad;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "util.sbs";
+			- _subsystem = "java";
+			- _class = "";
+			- _name = "util";
+			- _id = GUID 03f194d4-868a-4527-94f8-20430c61a08c;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "io.sbs";
+			- _subsystem = "java";
+			- _class = "";
+			- _name = "io";
+			- _id = GUID 3b98d95c-209e-4876-b6a7-80a9ff87c0ec;
+		}
+		{ IHandle 
+			- _m2Class = "ISubsystem";
+			- _filename = "text.sbs";
+			- _subsystem = "java";
+			- _class = "";
+			- _name = "text";
+			- _id = GUID 72c4a470-ec88-428d-8fd0-c313d0c9ee9f;
+		}
+		{ IHandle 
+			- _m2Class = "IProfile";
+			- _filename = "$OMROOT\\Profiles\\JavaDoc\\\\JavaDocProfile.sbs";
+			- _subsystem = "";
+			- _class = "";
+			- _name = "JavaDocProfile";
+			- _id = GUID 19700e28-456f-4c97-a19c-b95dcb3e9dff;
+		}
+	}
+	- VariationPoints = { IRPYRawContainer 
+		- size = 0;
+	}
+	- SelectedVariants = { IRPYRawContainer 
+		- size = 0;
+	}
+	- weakCGTime = 3.1.2016::13:44:21;
+	- strongCGTime = 1.2.1990::0:0:0;
+}
+

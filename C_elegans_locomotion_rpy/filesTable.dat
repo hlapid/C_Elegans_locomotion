@@ -1,0 +1,14 @@
+I-Logix-RPY-Archive version 8.6.0 * 4012249
+
+- filesTable = { IRPYRawContainer 
+	- size = 7;
+	- value = "C_elegans_locomotion.rpy" ""
+	"C_elegans_locomotion_rpy\\Default.sbs" "Default"
+	"C_elegans_locomotion_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"C_elegans_locomotion_rpy\\io.sbs" "java::io"
+	"C_elegans_locomotion_rpy\\java.sbs" "java"
+	"C_elegans_locomotion_rpy\\text.sbs" "java::text"
+	"C_elegans_locomotion_rpy\\util.sbs" "java::util"
+	
+}
+
